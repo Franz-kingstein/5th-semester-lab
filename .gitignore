@@ -1,1 +1,28 @@
-.venv/DL/glove.6B.100d.txt
+# Virtual environment
+.venv/
+
+# Large data / models (do not track)
+DL/glove.6B.100d.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Git-lfs pointer files (if using LFS)
+*.gitattributes
+
+# Keep docs and source code (PDFs, DOCX, .py/.java etc. will remain tracked)
