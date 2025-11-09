@@ -1,0 +1,58 @@
+body{
+  background-color: black;
+}
+div.absolute
+{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+}
+
+.SignIN{
+  background : linear-gradient(aqua,white);
+  vertical-align: auto;
+  margin: 90px;
+  border-color: black;
+  border-width: 10px;
+
+}
+
+.SignUP{
+  background : linear-gradient(aqua,white);
+  margin: 90px;
+  vertical-align: auto;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: linear-gradient(aqua,white);;
+    color: linear-gradient(aqua,white);;
+  }
+  
+  li {
+    float: left;
+    color: white; 
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: aqua;
+  }
+
+  a:hover {
+    background-color: aqua;
+    font-size: 18px;
+  }

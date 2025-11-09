@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f9ff;
+}
+
+#box {
+  width: 250px;
+  height: 120px;
+  line-height: 120px;
+  margin: 30px auto;
+  background-color: #ffca28;
+  color: #333;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 2px solid #333;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d99;
+}
